@@ -20,7 +20,7 @@ doc_loader=DirectoryLoader(
 
 # print(doc_loader[0].page_content)
 
-doc_loader=list(doc_loader.lazy_load())
+doc_loader=list(doc_loader.lazy_load())  #lazy_loader is used for the fast loading the the directoryLoader 
 
 print(doc_loader[0].page_content)
 
