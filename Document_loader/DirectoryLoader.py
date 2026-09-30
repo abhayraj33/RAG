@@ -3,9 +3,7 @@ from langchain_huggingface import ChatHuggingFace,HuggingFaceEndpoint
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers  import StrOutputParser
 from langchain_community.document_loaders import DirectoryLoader
-from dotenv import load_dotenv
-
-
+from dotenv import load_dotenjl
 loader=PyPDFLoader("Statics Interview Question5 (AutoRecovered).pdf")
 
 docs=loader.load()
