@@ -6,7 +6,7 @@ from langchain_community.document_loaders import DirectoryLoader
 from dotenv import load_dotenjl
 loader=PyPDFLoader("Statics Interview Question5 (AutoRecovered).pdf")
 
-docs=loader.load()
+docs=loader.load()33
 
 doc_loader=DirectoryLoader(
     path="docs",
